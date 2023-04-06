@@ -1,0 +1,33 @@
+ Java Coding Tasks - Part 3
+
+1) String - Sort Letters and Numbers from alphanumeric String
+Given alphanumeric String, we need to split the string into substrings of consecutive letters or numbers, sort the individual string and append them back together. Ex:
+Input:  "DC501GCCCA098911"
+Output: "CD015ACCCG011899"
+
+2) String - Password Validation Task
+Write a return method that can verify if a password is valid or not. Requirements:
+ 1. Password MUST be at least 6 characters and should not contain space
+2. Password should at least contain one upper case letter
+3. Password should at least contain one lowercase letter
+4. Password should at least contain one special characters
+5. Password should at least contain a digit
+6. if all requirements above are met, the method returns true, otherwise returns false
+
+3) String - sum of digits in a string
+Write a method that can return the sum of the digits in a string
+
+4) Array - Find Maximum & Find Minimum
+Write a method that can find the maximum number from an int Array
+Write a method that can find the maximum number from an int Array
+
+5) Array - Sort Ascending
+Write a return method that can sort an int array in Ascending order without using the sort method of the Arrays class
+Ex:
+            int[] arr = {10, 9, 8, 7};
+             arr = Sort(arr);         ==>{ 7, 8, 9, 10};
+
+6) Array - Sort Descending
+Write a return method that can sort an int array in descending order without using the sort method of the Arrays class
+Ex:  int[] arr = {10,20,7, 8, 90};
+                 arr = Sort(arr);  ==>  {90, 20, 10, 8, 7};
